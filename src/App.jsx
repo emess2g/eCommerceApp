@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-     <p>app</p>
+     <p className='underline'>app</p>
     </div>
   )
 }
