@@ -25,7 +25,7 @@ const ShopContextProvider = (props) => {
             cartData[itemId] = {};
             cartData[itemId][size] = 1;
         }
-
+        setCartItems(cartData)
     }
     
     useEffect(()=>{
